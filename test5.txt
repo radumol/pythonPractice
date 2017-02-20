@@ -1,0 +1,100 @@
+Author: Radu Molea
+
+
+
+#Question 1:
+ 
+>>>
+>>> exp(2,3)
+8
+>>> exp(0,0)
+1
+>>> exp(6,0)
+1
+>>> exp(3,5)
+243
+>>> exp(4,1)
+4
+
+
+#Question 2
+
+>>>
+>>> ancestry(0)
+1
+>>> ancestry(1)
+2
+>>> ancestry(3)
+8
+
+
+#Question 3
+
+>>>
+>>> reverse('what is this')
+'siht si tahw'
+>>> reverse('r')
+'r'
+>>> reverse('tococat')
+'tacocot'
+>>> 
+
+
+#Question 4
+
+>>>
+>>> palindrome('time')
+False
+>>> palindrome('e')
+True
+>>> palindrome('ana')
+True
+>>> palindrome('Ana')
+False
+>>> palindrome("repel leper")
+True
+>>> 
+
+
+#Question 5
+
+#5a
+>>>
+>>> duck1 = Duck()
+>>> print(duck1.wingspan)
+95.5
+>>> print(duck1.weight)
+1.51
+>>> duck2 = Duck()
+>>> print(duck2.wingspan)
+83.3
+>>> print(duck2.weight)
+1.02
+>>> 
+
+#5b
+>>>
+>>> ducks = makeFlock(6)
+>>> ducks
+[<__main__.Duck instance at 0x02DBEC10>, <__main__.Duck instance at 0x02DC6FD0>, <__main__.Duck instance at 0x02DC6CD8>, <__main__.Duck instance at 0x02DC6DF0>, <__main__.Duck instance at 0x02E1D8C8>, <__main__.Duck instance at 0x02E1DA58>]
+>>> ducks[0].wingspan
+96.9
+>>> ducks[1].weight
+1.3
+>>> 
+
+#5c
+>>> 
+>>> ducks1 = makeFlock(13)
+>>> sortDucks(ducks1)
+[81.0, 81.4, 82.4, 89.1, 89.5, 91.5, 92.0, 93.6, 94.0, 95.8, 97.6, 97.7, 98.6]
+>>> ducks2 = makeFlock(4)
+>>> sortDucks(ducks2)
+[83.6, 92.4, 92.8, 95.2]
+>>> ducks3 = makeFlock(0)
+>>> sortDucks(ducks3)
+[]
+>>> ducks4 = makeFlock(1)
+>>> sortDucks(ducks4)
+[80.4]
+>>> 
